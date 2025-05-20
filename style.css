@@ -1,0 +1,52 @@
+/* *{
+ margin: 0%;
+padding: 0%;
+} */
+
+body {
+    background-color: #E0F9E9;
+    margin: auto;
+}
+
+header {
+    background-color: #1C6434;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+section {
+    color: #1C6434;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+div {
+    padding: 30px;
+}
+
+img {
+    width: 400%;
+    background-color: #1C6434;
+    padding: 10px;
+}
+
+footer {
+    background-color: #1C6434;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.ana{
+    width: 30%;
+}
+
+@media screen and (min-width:1024px){
+    section{
+        display: flex;
+        align-items: center;
+    }
+
+}
