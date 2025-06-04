@@ -14,7 +14,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #2d3b2f; /* Verde escuro */
+    background-color: #2d3b2f; 
     color: white;
     padding: 20px 10px;
     text-align: center;
@@ -59,10 +59,9 @@ header h1 {
 }
 
 .menu a:hover {
-    color: #ffcc00; /* Cor amarela para hover */
+    color: #ffcc00;
 }
 
-/* Estilo responsivo para o menu */
 @media (max-width: 768px) {
     .menu {
         position: absolute;
